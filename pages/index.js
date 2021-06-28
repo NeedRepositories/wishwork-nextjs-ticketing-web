@@ -23,15 +23,15 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/tickets" className={styles.card} >
+          <a href="/tickets" className={styles.card} >
             <h2>New Ticket &rarr;</h2>
             <p>Create a ticket and ask any.</p>
-          </Link>
+          </a>
 
-          <Link href="/tickets" className={styles.card} >
+          <a href="/tickets" className={styles.card} >
             <h2>List Tickets &rarr;</h2>
             <p>All Tickets are here.</p>
-          </Link>
+          </a>
 
           <a
             href="https://wishwork.org/"
